@@ -39,3 +39,5 @@ attack.decrypt()
 [*] Attack complete
 [*] Decrypted ciphertext: b'This is a demonstration of PadAttacker, a tool for automating padding oracle attacks, written in Python.\x08\x08\x08\x08\x08\x08\x08\x08'
 ```
+### Disclaimer
+PadAttacker is a tool designed exclusively for use in Capture The Flag (CTF) competitions and educational purposes. It is not intended for any illegal or malicious activities. The creators and distributors of PadAttacker do not condone or support the use of this tool for unauthorized access or any activities that violate applicable laws and regulations. Users are responsible for ensuring that their use of PadAttacker complies with all relevant legal requirements

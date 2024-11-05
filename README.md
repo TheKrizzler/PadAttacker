@@ -7,7 +7,7 @@ This tool is still in development and currently only supports the decrypt() meth
 Create a PaddingOracle object. This object has three properties: PaddingOracle.ciphertext (given in bytes), PaddingOracle.oracle, and PaddingOracle.blockSize. The oracle function specified should return True if the ciphertext passed to it is padded correctly, and False if not.
 
 ## Example usage
-```
+```python
 import padattacker
 from Crypto.Cipher import AES
 from Crypto.Util.Padding import unpad
